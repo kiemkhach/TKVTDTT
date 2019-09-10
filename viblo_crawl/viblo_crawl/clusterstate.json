@@ -1,0 +1,16 @@
+{"znode":{
+    "path":"/collections/viblo_posts/state.json","prop":{
+      "version":8,
+      "aversion":0,
+      "children_count":0,
+      "ctime":"Sun Sep 01 01:18:45 UTC 2019 (1567300725172)",
+      "cversion":0,
+      "czxid":2266,
+      "ephemeralOwner":0,
+      "mtime":"Sun Sep 01 01:18:53 UTC 2019 (1567300733055)",
+      "mzxid":2346,
+      "pzxid":2266,
+      "dataLength":1611},
+    "data":"{\"viblo_posts\":{\n    \"pullReplicas\":\"0\",\n    \"replicationFactor\":\"2\",\n    \"router\":{\"name\":\"compositeId\"},\n    \"maxShardsPerNode\":\"-1\",\n    \"autoAddReplicas\":\"false\",\n    \"nrtReplicas\":\"2\",\n    \"tlogReplicas\":\"0\",\n    \"shards\":{\n      \"shard1\":{\n        \"range\":\"80000000-ffffffff\",\n        \"state\":\"active\",\n        \"replicas\":{\n          \"core_node3\":{\n            \"core\":\"viblo_posts_shard1_replica_n1\",\n            \"base_url\":\"http://192.168.100.4:7574/solr\",\n            \"node_name\":\"192.168.100.4:7574_solr\",\n            \"state\":\"active\",\n            \"type\":\"NRT\",\n            \"force_set_state\":\"false\"},\n          \"core_node5\":{\n            \"core\":\"viblo_posts_shard1_replica_n2\",\n            \"base_url\":\"http://192.168.100.4:8983/solr\",\n            \"node_name\":\"192.168.100.4:8983_solr\",\n            \"state\":\"active\",\n            \"type\":\"NRT\",\n            \"force_set_state\":\"false\",\n            \"leader\":\"true\"}}},\n      \"shard2\":{\n        \"range\":\"0-7fffffff\",\n        \"state\":\"active\",\n        \"replicas\":{\n          \"core_node7\":{\n            \"core\":\"viblo_posts_shard2_replica_n4\",\n            \"base_url\":\"http://192.168.100.4:7574/solr\",\n            \"node_name\":\"192.168.100.4:7574_solr\",\n            \"state\":\"active\",\n            \"type\":\"NRT\",\n            \"force_set_state\":\"false\"},\n          \"core_node8\":{\n            \"core\":\"viblo_posts_shard2_replica_n6\",\n            \"base_url\":\"http://192.168.100.4:8983/solr\",\n            \"node_name\":\"192.168.100.4:8983_solr\",\n            \"state\":\"active\",\n            \"type\":\"NRT\",\n            \"force_set_state\":\"false\",\n            \"leader\":\"true\"}}}}}}"},"tree":[{"data":{
+        "title":"state.json","attr":{
+          "href":"admin/zookeeper?detail=true&path=%2Fcollections%2Fviblo_posts%2Fstate.json"}}}]}
