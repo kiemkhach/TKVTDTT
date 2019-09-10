@@ -40,6 +40,10 @@ function responseHandler(res) {
     return res.rows
 }
 
+function LinkFormatter(value, row, index) {
+  return "<a href='"+row.url+"'>Link</a>";
+}
+
 window.ajaxOptions = {
     beforeSend: function (xhr) {
       //xhr.setRequestHeader('Custom-Auth-Token', 'custom-auth-token')
